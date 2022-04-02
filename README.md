@@ -2,11 +2,11 @@
 
 **Brief:** A simple shopping cart web application
 
-Product:
+**Product:
 
 - View product
 
-Shopping cart:
+**Shopping cart:
 
 - Add products to cart
 - Can update , remove , delete cart 
