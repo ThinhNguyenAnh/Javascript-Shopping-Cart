@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/5b7b7013a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/product.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <h3>Cart</h3>
+        <div class="cart-btn"></div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <div style="float: right">
+      <button class="btn btn-danger clear-btn">Clear</button>
+    </div>
+    <div class="cart-content">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Amount</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="cart-dom"></tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="./js/cart.js"></script>
+  </body>
+</html>
