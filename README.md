@@ -1,12 +1,14 @@
 ## Shopping Cart | Javascript 
 
-**Brief:** A simple shopping cart web application
+**Brief** : A simple shopping cart web application
 
-**Product:**
+**Techs** : HTML,CSS,Bootstrap,Javascript
 
-- View product
+**Product**
 
-**Shopping cart:**
+- View product 
+
+**Shopping cart**
 
 - Add products to cart
 - Can update, remove, delete cart.
