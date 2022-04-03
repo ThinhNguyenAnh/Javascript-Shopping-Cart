@@ -50,7 +50,6 @@ class UI {
                     cart = [...cart, cartItem];
                 }
                 Storage.saveCart(cart);
-                alert(`Add successfully` )
             })
         })
     }
@@ -83,7 +82,7 @@ class Storage {
     }
 
     static getCart() {
-        JSON.parse(sessionStorage.getItem("cart")) || [];
+        return JSON.parse(sessionStorage.getItem("cart")) || [];
     }
 
     static getAllProduct() {
@@ -131,7 +130,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const products = new Products();
 
     // Setup app
-    // cart = Storage.getCart();
+    cart = Storage.getCart();
 
 
     //get all products
